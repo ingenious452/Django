@@ -99,7 +99,7 @@ it is a directory in each project which contain all the project required by that
 
 in python we can create a virutal environment by using __venv__ is a buitlin python module
 
-!['python -m venv env'](C:\Users\drkwo\Downloads\django_virtual.png")
+!['python -m venv env'](assets/Images/django_virtual.png)
 
 In above command python refers to the python global installation in your system and _-m_ switch is used to run a python builtin module venv and last we name the virtual environment directory _env_ in this case
 
@@ -109,7 +109,7 @@ to activate the virtual environment type
 where env is the environment directory you just created and activate is a program which is inside ```env\Scripts``` directory
 
 after activating the environment you should be able to see.
-![1environment](path)
+!['active environment'](assets/Images/active_virtualenv.png)
 
 ### requirements
 
@@ -182,10 +182,12 @@ to run development server type
 ```python manage.py runserver```
 
 you will see something like
-!["development server"](runserver)
+!["development server"](assets/Images/runserver.png)
 
 This will cause the project to perform system checks and start development server
+!['running development server in browser'](assets/Images/django_running.png)
 to stop the server press ```ctrl+C```
+
 
 to create a application inside project type
 ```python manage.py staartapp <app_name>```
@@ -316,14 +318,3 @@ open the url: [http://localhost:8000/](http://localhost:8000/)
 
 You should see __Hello, world!__
 
-## Summary
-
-Although there are many framework for the python language the Django Framework has proven iteself a worthy opponent for developing application
-
-learned
-
-- why Django is great for rapid deployments.
-- The difference between django and flask
-- The types of applications best for django
-- How to install Django
-- How to create a simple program.
