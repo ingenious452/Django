@@ -225,9 +225,9 @@ In web application, user requests are made by
 
 A route tells django if user make a request for a particual url, or path, what function to execute.
 
-Eg: Url: 'https://catpost.com/about' might execute a function called about
+Eg: Url: [#]('https://catpost.com/about') might execute a function called about
 
-or  Url: 'https://catpost.com/login' might execute a function called __authenticate__
+or  Url: [#]('https://catpost.com/login') might execute a function called __authenticate__
 
 - paths in django are registered by configuring `urlpatterns`.
 
