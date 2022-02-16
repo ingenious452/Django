@@ -14,6 +14,6 @@ feel free to look around.
 6. [Deployment.md](Deployment.md)
 
 and do check out 
-[https://docs.microsoft.com/en-us/learn/paths/django-create-data-driven-websites/](Microsoft learn django)
+[Microsoft learn django](https://docs.microsoft.com/en-us/learn/paths/django-create-data-driven-websites/)
 
 don't hestiate to make add any other refrence material and make PR if you find any mistakes in document.
